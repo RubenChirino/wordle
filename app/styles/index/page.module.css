@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+}
+
+.title {
+  display: flex;
+  font-size: 28px;
+  margin-bottom: 2.5rem;
+}
+
+.titleLink {
+  color: #b59f3b;
+  border-bottom: solid #b59f3b 3px;
+  margin-left: 0.5rem;
+}

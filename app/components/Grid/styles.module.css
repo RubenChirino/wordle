@@ -1,0 +1,43 @@
+.grid {
+    display: grid;
+    gap: 5px;
+
+    width: 300px;
+}
+
+/* === ROWS === */
+
+.gridRow {
+    display: grid;
+    gap: 5px;
+}
+
+.gridRowComplete .gridColumn.pending {
+    background-color: #121214;
+}
+
+.gridRowComplete .gridColumn.incorrect {
+    background-color: #3a3a3c;
+    border: none;
+}
+
+.gridRowComplete .gridColumn.correct {
+    background-color: #b59f3b;
+    border: none;
+}
+
+/* === Columns === */
+
+.gridColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    font-size: 2rem;
+    cursor: pointer;
+
+    color: var(--chakra-colors-chakra-body-text);
+    background: var(--chakra-colors-chakra-body-bg);
+    border: 2px solid #3a3a3c;
+}
